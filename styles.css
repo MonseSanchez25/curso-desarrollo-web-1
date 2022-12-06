@@ -1,4 +1,4 @@
-* {margin: 0px; 
+* {margin: 10px; 
     padding: 5px; }
 
 h1 {
@@ -22,7 +22,7 @@ color: #000000;}
     font-family: Arial, Helvetica, sans-serif;}
 
 .footerIndex {
-    background-color:#f5dbcb; 
+    background-color:plum; 
 font-size: 10px;
 border-style: dashed;
 font-family: monospace;}
@@ -31,12 +31,52 @@ font-family: monospace;}
      font-size: 25px;
     display: flex; gap: 1rem;
 border: 4px; border-style: solid; border-color:plum;
-justify-content: space-evenly;}
+justify-content: space-evenly; text-decoration: none; color: white; align-items:center;}
+
+a {color: white; text-decoration: none;}
+.logoindex {height: 50px; display: flex; align-items: center;}
 
 .ulIndex li{ flex: 1; 
     flex-shrink: 0;
     flex-grow: 1;
-    border: 4px; border-style: solid; border-color:#f28dd2;}
+    border: 4px; border-style: solid; background-color:#f28dd2; border-color:#f28dd2;align-items:center;}
 
-.cover {background-image:url("./Imagenes/DALE\ UN\ GUSTO\ A\ TU\ PALADAR.png");
-background-size: cover;}
+.ulinicio {font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+   display: flex; gap: 1rem;
+border: 4px; border-style: solid; border-color: plum;
+justify-content: space-evenly; color: white; align-items:stretch;}
+.ulinicio li {flex: 1; 
+    flex-shrink: 0;
+    flex-grow: 1;
+    border: 4px; border-style: solid; border-color:#f28dd2; background-color:#f28dd2; align-items:stretch;}
+
+.ulacerca-de {font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+   display: flex; gap: 1rem;
+border: 4px; border-style: solid; border-color:plum;
+justify-content: space-evenly; color: white;align-items:stretch;}
+.ulacerca-de li {flex: 1; 
+    flex-shrink: 0;
+    flex-grow: 1;
+    border: 4px; border-style: solid; border-color:#f28dd2; background-color:#f28dd2;align-items:stretch;}
+
+.ulmenú {font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+   display: flex; gap: 1rem;
+border: 4px; border-style: solid; border-color:plum; color: white;align-items:stretch;}
+.ulmenú li {flex: 1; 
+    flex-shrink: 0;
+    flex-grow: 1;
+    border: 4px; border-style: solid; border-color:#f28dd2; background-color:#f28dd2;align-items:stretch;}
+
+.ulcontactanos {font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+   display: flex; gap: 1rem;
+border: 4px; border-style: solid; border-color:plum;align-items:stretch;}
+.ulcontactanos li {flex: 1; 
+    flex-shrink: 0;
+    flex-grow: 1;
+    border: 4px; border-style: solid; border-color:#f28dd2; background-color:#f28dd2;align-items:stretch;}
+
+
