@@ -1,0 +1,3 @@
+.btnCorrecto {font-size: 15px; color: white;padding: 1rem;border-radius: 20px;margin: 1rem; background-color: green}
+.btnError {@extend .btnCorrecto; background-color: yellow;}
+.btnAgregado {@extend .btnCorrecto; background-color: red;}

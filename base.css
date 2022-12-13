@@ -1,3 +1,18 @@
+.btnCorrecto, .btnAgregado, .btnError {
+  font-size: 15px;
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 1rem;
+  background-color: green;
+}
 
+.btnError {
+  background-color: yellow;
+}
+
+.btnAgregado {
+  background-color: red;
+}
 
 /*# sourceMappingURL=base.css.map */
