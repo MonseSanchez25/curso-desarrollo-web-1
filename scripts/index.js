@@ -8,13 +8,12 @@ console.log (precioPastel);
 
 
 
+l//et nombreUsuario = prompt("Hola bienvenido Yummy cake, proporcinanos tu nombre para poder atenderte");
+//let UsCantidadPasteles = prompt("Cuantos pasteles deseas ordenar?");
 
-let nombreUsuario = prompt("Hola bienvenido Yummy cake, proporcinanos tu nombre para poder atenderte");
-let UsCantidadPasteles = prompt("Cuantos pasteles deseas ordenar?");
 
-
-alert("Hola tu nombre es " + nombreUsuario + " " + "y vas a ordenar " +  UsCantidadPasteles + " " + "pasteles. En un momento te atenderemos ");
-alert (`Hola ${nombreUsuario}, vas a ordenar ${UsCantidadPasteles} pasteles.`);
+//alert("Hola tu nombre es " + nombreUsuario + " " + "y vas a ordenar " +  UsCantidadPasteles + " " + "pasteles. En un momento te atenderemos ");
+//alert (`Hola ${nombreUsuario}, vas a ordenar ${UsCantidadPasteles} pasteles.`);
 
 
 
